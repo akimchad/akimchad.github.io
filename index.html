@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Akim Khamitov</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: #fff;
+    background: #1a1020 url("background.jpg") center / cover fixed no-repeat;
+  }
+  body::before {
+    content: ""; position: fixed; inset: 0; z-index: -1;
+    background: linear-gradient(90deg, rgba(0,0,0,.7) 0%, rgba(0,0,0,.3) 50%, rgba(0,0,0,0) 100%);
+  }
+
+  main {
+    max-width: 480px;
+    margin: 8vh 0 8vh 6vw;
+    padding: 32px;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 16px;
+  }
+  h1 { font-size: 34px; font-weight: 700; }
+  .sub { margin-top: 4px; color: #ccc; }
+  h2 { margin: 26px 0 8px; font-size: 18px; font-weight: 600; }
+  ul { padding-left: 20px; }
+  li { margin: 5px 0; line-height: 1.5; color: #eee; }
+
+  @media (max-width: 720px) {
+    body::before { background: rgba(0,0,0,.45); }
+    main { margin: 16px; padding: 24px 20px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Akim Khamitov</h1>
+  <p class="sub">16 · Junior at Las Lomas High School</p>
+
+  <h2>About me</h2>
+  <ul>
+    <li>Born in Kazakhstan</li>
+    <li>Lived in New York, now live in California</li>
+  </ul>
+
+  <h2>What I've done</h2>
+  <ul>
+    <li>Intern at Two Labs (YC startup)</li>
+    <li>1st place for presentation at Vibecon, my first hackathon (hosted by Emergent)</li>
+    <li>Made Marvel Kombat, a Mortal Kombat–style game with Marvel heroes</li>
+  </ul>
+
+  <h2>Swimming</h2>
+  <ul>
+    <li>Swam for a club and my high school team in New York</li>
+    <li>Now on the Las Lomas swim team</li>
+  </ul>
+
+  <h2>Music</h2>
+  <ul>
+    <li>I play the piano</li>
+  </ul>
+
+  <h2>Things I like</h2>
+  <ul>
+    <li>Watching movies</li>
+    <li>Listening to music</li>
+  </ul>
+
+  <h2>Fun fact</h2>
+  <ul>
+    <li>I'm scared of snakes</li>
+  </ul>
+</main>
+</body>
+</html>
